@@ -1,0 +1,81 @@
+/* Global Styles : DO NOT EDIT */
+html,body {
+	width: 100%;
+	height: 100%;}
+
+#grid_container {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: -150px;
+	margin-left: -200px;}
+
+.play {
+	font-family: 'Playfair Display', serif;
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;}
+
+@-webkit-keyframes l_move {
+    0%{top: 0px; left: 0px; color: #ffd805;}
+    25%{top: -100px; left: 0px;}
+    50%{top: -100px; left: 250px;}
+    75%{top: 0px; left: 250px;}
+    100% {left: 140px; color: #FF7C75;}}
+
+#l{
+    color: #ffd805;
+    position: relative;
+    -webkit-animation: l_move 9s alternate infinite linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;}
+
+@-webkit-keyframes e_move {
+    0%{top: 0px; left: 0px; color: #ffd805;}
+    50%{top: -75px; left: -300px;}
+    100% {top: 0px; left: 55px; color: #FF7C75;}}
+
+#e{
+    color: #ffd805;
+    position: relative;
+    -webkit-animation: e_move 9s alternate infinite linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;}
+
+@-webkit-keyframes m_move {
+    0%{top: 0px; left: 0px; color: #ffd805;}
+    50%{top: 50px; left: 50px;}
+    100% {top: 0; left: -87px; color: #FF7C75;}}
+
+#m{
+    color: #ffd805;
+    position: relative;
+    -webkit-animation: m_move 9s alternate infinite linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;}
+
+@-webkit-keyframes o_move {
+    0%{top: 0px; left: 0px; color: #ffd805;}
+    50%{top: 200px; left: 400px;}
+    100% {top: 0px; left: 0px; color: #FF7C75;}}
+
+#o{
+    color: #ffd805;
+    position: relative;
+    -webkit-animation: o_move 9s alternate infinite linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;}
+
+@-webkit-keyframes n_move {
+    0%{top: 0px; left:0px; color: #ffd805;}
+    50%{top: -200px; left: 200px;}
+    100% {top: 0px; left:0px; color: #FF7C75;}}
+
+#n{
+    color: #ffd805;
+    position: relative;
+    -webkit-animation: n_move 9s alternate infinite linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: 1s;}
